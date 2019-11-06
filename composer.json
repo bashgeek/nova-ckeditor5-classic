@@ -19,13 +19,13 @@
     },
     "autoload": {
         "psr-4": {
-            "NumaxLab\\NovaCKEditor5Classic\\": "src/"
+            "Bashgeek\\NovaCKEditor5Classic\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "NumaxLab\\NovaCKEditor5Classic\\FieldServiceProvider"
+                "Bashgeek\\NovaCKEditor5Classic\\FieldServiceProvider"
             ]
         }
     },

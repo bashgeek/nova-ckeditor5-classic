@@ -1,8 +1,8 @@
 <?php
 
-namespace NumaxLab\NovaCKEditor5Classic\Jobs;
+namespace Bashgeek\NovaCKEditor5Classic\Jobs;
 
-use NumaxLab\NovaCKEditor5Classic\Models\PendingAttachment;
+use Bashgeek\NovaCKEditor5Classic\Models\PendingAttachment;
 
 class PruneStaleAttachments
 {
