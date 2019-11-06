@@ -1,5 +1,4 @@
-let mix = require('laravel-mix')
+const mix = require('laravel-mix')
 
-mix.setPublicPath('dist')
-    .js('resources/js/field.js', 'js')
-    .sass('resources/sass/field.scss', 'css')
+mix.sass('resources/sass/field.scss', 'dist/field.css');
+mix.js('resources/js/field.js', 'dist/field.js');
