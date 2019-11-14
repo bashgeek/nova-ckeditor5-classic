@@ -41,14 +41,15 @@ class CKEditor5Classic extends Trix
         ]);
     }
     /**
-     * @param string|null $disk
+     * @param  string  $disk
+     * @param  string  $path
      * @return $this
      */
-    public function withFiles($disk = null)
+    public function withFiles($disk = null, $path = '/')
     {
         $this->withFiles = true;
 
-        $this->disk($disk);
+	    $this->disk($disk)->path($path);
 
         $this->attach(new StorePendingAttachment($this))
             ->detach(new DetachAttachment($this))
